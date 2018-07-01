@@ -83,7 +83,7 @@
                               <Component id="jTextField6" min="-2" pref="100" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <Component id="cancelar" max="32767" attributes="0"/>
+                      <Component id="nuevo" max="32767" attributes="0"/>
                       <Component id="salir" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace pref="32" max="32767" attributes="0"/>
@@ -126,7 +126,7 @@
                   <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                   <Component id="guardar" min="-2" pref="37" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="cancelar" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="nuevo" min="-2" pref="41" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="salir" min="-2" pref="38" max="-2" attributes="0"/>
                   <EmptySpace pref="26" max="32767" attributes="0"/>
@@ -239,9 +239,9 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="cancelar">
+        <Component class="javax.swing.JButton" name="nuevo">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Cancelar"/>
+            <Property name="text" type="java.lang.String" value="Nuevo"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
                 <BevelBorder/>
@@ -249,7 +249,7 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelarActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nuevoActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="salir">

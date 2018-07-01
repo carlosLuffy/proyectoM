@@ -42,7 +42,7 @@ public class registroprestamo extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jTextField6 = new javax.swing.JTextField();
         guardar = new javax.swing.JButton();
-        cancelar = new javax.swing.JButton();
+        nuevo = new javax.swing.JButton();
         salir = new javax.swing.JButton();
 
         jTextField5.setText("jTextField5");
@@ -81,11 +81,11 @@ public class registroprestamo extends javax.swing.JFrame {
         guardar.setText("Guardar");
         guardar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        cancelar.setText("Cancelar");
-        cancelar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        cancelar.addActionListener(new java.awt.event.ActionListener() {
+        nuevo.setText("Nuevo");
+        nuevo.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        nuevo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cancelarActionPerformed(evt);
+                nuevoActionPerformed(evt);
             }
         });
 
@@ -117,7 +117,7 @@ public class registroprestamo extends javax.swing.JFrame {
                                 .addComponent(cantidad)
                                 .addComponent(jTextField4))
                             .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(cancelar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(nuevo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(salir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(32, Short.MAX_VALUE))
         );
@@ -151,7 +151,7 @@ public class registroprestamo extends javax.swing.JFrame {
                 .addGap(36, 36, 36)
                 .addComponent(guardar, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(cancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(nuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(salir, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(26, Short.MAX_VALUE))
@@ -177,9 +177,9 @@ public class registroprestamo extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void cancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancelarActionPerformed
+    private void nuevoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_cancelarActionPerformed
+    }//GEN-LAST:event_nuevoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -217,7 +217,6 @@ public class registroprestamo extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton cancelar;
     private javax.swing.JTextField cantidad;
     private javax.swing.JTextField carnet;
     private javax.swing.JButton guardar;
@@ -233,6 +232,7 @@ public class registroprestamo extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
+    private javax.swing.JButton nuevo;
     private javax.swing.JButton salir;
     // End of variables declaration//GEN-END:variables
 }
